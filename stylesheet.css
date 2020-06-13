@@ -1,0 +1,166 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0
+}
+
+.clear {
+    clear: left;
+}
+
+.logo {
+    height: 2rem;
+}
+
+header {
+    background-color: rgba(25, 21, 63, 0.7);
+    height: 4rem;
+    width:100%;
+    z-index: 10;
+    position: fixed;
+}
+
+.container {
+    font-size: 8px;
+    width:90%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.header-left {
+    padding-top: 1rem;
+    float: left;
+    position: absolute;
+
+}
+
+.header-right {
+    padding-top: 0.5rem;
+    float: right;
+    color: antiquewhite;
+    font-size: 1rem;
+}
+
+.header-icon {
+    display: none;
+}
+
+li {
+    float: left;
+    list-style: none;
+    padding-right: 1.5rem;
+    display: block;
+    
+}
+
+.top-view {
+    background-image: url(images/top-image.png);
+    height: 45rem;
+    width: 100%;
+    background-size: cover;
+    padding-top: 8rem;
+    color: antiquewhite;
+}
+
+.opa {
+    opacity: 0.8;
+}
+
+.top-view h1 {
+    padding-top: 0.5rem;
+    font-size: 3rem;
+}
+
+.top-view p {
+    font-size: 1rem;
+}
+
+.btn-wrapper {
+    margin-top: 2rem;
+}
+
+.btn {
+    padding: 0.5rem 1rem;
+    color: white;
+    border-radius: 5px;
+}
+
+.btn-register {
+    background-color: rgb(67, 186, 67);
+}
+.btn-facebook {
+    background-color: rgb(37, 97, 186);
+}
+
+.btn-twitter {
+    margin-left: 1rem;
+    background-color: rgb(103, 188, 228);
+}
+
+
+/*高さの指定部分はclearを活用 */
+.lesson-view {
+
+    padding-top: 3rem;
+    padding-bottom: 5rem;
+    /* height: 35rem; */
+    background-color: rgb(233, 233, 233);
+}
+
+h2 {
+    padding: 1.5rem 0;
+    font-size: 1.5rem;
+    color: rgb(92, 87, 87);
+}
+
+.lesson {
+    width: 25%;
+    float: left;
+}
+
+.lesson-icon {
+    position: relative;
+}
+
+.lesson-icon p{
+    position: absolute;
+    top: 42%;
+    width: 100%;
+    font-size: 1rem;
+    color: white;
+}
+
+.lesson-text{
+    font-size: 1rem;
+    text-align: center;
+    padding: 0 4rem ;
+}
+
+
+
+
+.bottom-view {
+    padding-top: 1rem;
+    border-bottom: 0.1rem solid rgba(108, 108, 108 ,0.2);
+    padding-bottom: 3rem;
+}
+
+.bottom-view p {
+    font-size: 1rem;
+}
+
+.btn-register2 {
+    margin: 3rem 0;
+    color: white;
+    background-color: rgb(49, 157, 91);
+    box-shadow: 2px 6px rgba(60, 60, 60, 0.7);
+    font-size: 1rem;
+}
+
+.fotter {
+    margin-top: 2rem;
+    text-align: left;
+}
+
